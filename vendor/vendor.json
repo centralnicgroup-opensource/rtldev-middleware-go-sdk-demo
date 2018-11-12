@@ -3,12 +3,13 @@
 	"ignore": "",
 	"package": [
 		{
-			"checksumSHA1": "JMR6g53+a0kubQFeqOJYbKttwyk=",
+			"checksumSHA1": "qllStD6nX+ojKqHsgCSslibGvH0=",
 			"path": "github.com/hexonet/go-sdk",
-			"revision": "107824423f630da8978afacbf5cac5c1c31331e4",
-			"revisionTime": "2018-06-20T07:22:59Z",
-			"version": "v1.0.0",
-			"versionExact": "v1.0.0"
+			"revision": "5d68012a28566972257f56210079df7bcb4cd62e",
+			"revisionTime": "2019-04-03T13:27:03Z",
+			"tree": true,
+			"version": "v2.0.1",
+			"versionExact": "v2.0.1"
 		}
 	],
 	"rootPath": "github.com/hexonet/go-sdk-demo"

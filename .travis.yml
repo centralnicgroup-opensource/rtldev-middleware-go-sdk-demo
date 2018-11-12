@@ -1,0 +1,18 @@
+language: go
+dist: xenial
+notifications:
+  email:
+    recipients:
+    - kschwarz@hexonet.net
+    on_success: never
+    on_failure: always
+go:
+- "1.10"
+- "1.11"
+- "1.12"
+- "master"
+install:
+  - go install github.com/kardianos/govendor
+  - govendor sync
+script:
+  - go run main.go

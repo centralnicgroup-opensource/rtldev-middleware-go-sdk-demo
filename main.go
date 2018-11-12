@@ -3,14 +3,16 @@ package main
 import (
 	"fmt"
 
-	"github.com/hexonet/go-sdk/client"
+	CL "github.com/hexonet/go-sdk/apiclient"
 )
 
 func main() {
 	//sessionless API communication
 	fmt.Println("--- SESSIONLESS API COMMUNICATION ---")
-	cl := client.NewClient()
-	cl.SetCredentials("test.user", "test.passw0rd", "")
+	cl := CL.NewAPIClient()
+	cl.SetCredentials("test.user", "test.passw0rd") //username, password
+	cl.SetRemoteIPAddress("1.2.3.4")                //for active ip filter setting
+	//cl.SetOTP("12345678") to provide your 2FA otp code
 	cl.UseOTESystem()
 	cmd := map[string]string{
 		"COMMAND": "StatusAccount",
@@ -25,10 +27,12 @@ func main() {
 
 	//session based API communication
 	fmt.Println("--- SESSION BASED API COMMUNICATION ---")
-	cl = client.NewClient()
-	cl.SetCredentials("test.user", "test.passw0rd", "") //username, password, otp code (2FA)
+	cl = CL.NewAPIClient()
+	cl.SetCredentials("test.user", "test.passw0rd") //username, password
+	cl.SetRemoteIPAddress("1.2.3.4")                //for active ip filter setting
 	cl.UseOTESystem()
 	r = cl.Login()
+	// or cl.Login("12345678") to provide your 2FA otp code
 	if r.IsSuccess() {
 		fmt.Println("Login succeeded.")
 		cmd := map[string]string{
