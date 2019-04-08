@@ -11,6 +11,9 @@ go:
 - "1.12"
 - "master"
 install:
+  - go get -u github.com/kardianos/govendor
+  - go install github.com/kardianos/govendor
+  - govendor sync
   - go build
 script:
   - ./go-sdk-demo
