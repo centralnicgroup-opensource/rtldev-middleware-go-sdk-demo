@@ -7,13 +7,10 @@ notifications:
     on_success: never
     on_failure: always
 go:
-- "1.10"
 - "1.11"
 - "1.12"
 - "master"
 install:
-  - go get -u github.com/kardianos/govendor
-  - go install github.com/kardianos/govendor
-  - govendor sync
+  - go mod require
 script:
   - go run main.go

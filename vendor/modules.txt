@@ -1,0 +1,9 @@
+# github.com/hexonet/go-sdk v0.0.0-20190403132703-5d68012a2856
+github.com/hexonet/go-sdk/apiclient
+github.com/hexonet/go-sdk/response
+github.com/hexonet/go-sdk/responsetemplatemanager
+github.com/hexonet/go-sdk/socketconfig
+github.com/hexonet/go-sdk/column
+github.com/hexonet/go-sdk/record
+github.com/hexonet/go-sdk/responsetemplate
+github.com/hexonet/go-sdk/responseparser
