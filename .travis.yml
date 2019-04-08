@@ -11,6 +11,6 @@ go:
 - "1.12"
 - "master"
 install:
-  - go mod require
+  - go build
 script:
-  - go run main.go
+  - ./go-sdk-demo
