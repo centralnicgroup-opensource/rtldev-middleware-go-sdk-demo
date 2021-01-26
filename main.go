@@ -14,10 +14,9 @@ func main() {
 	cl.SetRemoteIPAddress("1.2.3.4")                //for active ip filter setting
 	//cl.SetOTP("12345678") to provide your 2FA otp code
 	cl.UseOTESystem()
-	cmd := map[string]string{
+	r := cl.Request(map[string]interface{}{
 		"COMMAND": "StatusAccount",
-	}
-	r := cl.Request(cmd)
+	})
 	if r.IsSuccess() {
 		fmt.Println("Command succeeded.")
 	} else {
@@ -35,10 +34,9 @@ func main() {
 	// or cl.Login("12345678") to provide your 2FA otp code
 	if r.IsSuccess() {
 		fmt.Println("Login succeeded.")
-		cmd := map[string]string{
+		r = cl.Request(map[string]interface{}{
 			"COMMAND": "StatusAccount",
-		}
-		r = cl.Request(cmd)
+		})
 		if r.IsSuccess() {
 			fmt.Println("Command succeeded.")
 			r = cl.Logout()
