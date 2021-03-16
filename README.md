@@ -2,5 +2,4 @@
 
 GO SDK Demo App
 
-Make sure dependencies are correctly installed by `govendor sync`.
-Run this app by `go run main.go`.
+Make sure dependencies are correctly installed. Run this app by `go run main.go`.
