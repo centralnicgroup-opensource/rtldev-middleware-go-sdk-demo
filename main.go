@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	CL "github.com/hexonet/go-sdk/apiclient"
+	CL "github.com/hexonet/go-sdk/v3/apiclient"
 )
 
 func main() {

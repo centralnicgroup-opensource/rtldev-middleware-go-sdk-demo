@@ -12,4 +12,5 @@ go-sdk-demo
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+# 3rd party libararies
 vendor/*/*
