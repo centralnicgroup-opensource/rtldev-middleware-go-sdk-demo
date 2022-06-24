@@ -14,6 +14,7 @@ func main() {
 	cl.SetRemoteIPAddress("1.2.3.4")                //for active ip filter setting
 	//cl.SetOTP("12345678") to provide your 2FA otp code
 	cl.UseOTESystem()
+	cl.EnableDebugMode()
 	r := cl.Request(map[string]interface{}{
 		"COMMAND": "StatusAccount",
 	})
@@ -30,6 +31,7 @@ func main() {
 	cl.SetCredentials("test.user", "test.passw0rd") //username, password
 	cl.SetRemoteIPAddress("1.2.3.4")                //for active ip filter setting
 	cl.UseOTESystem()
+	cl.EnableDebugMode()
 	r = cl.Login()
 	// or cl.Login("12345678") to provide your 2FA otp code
 	if r.IsSuccess() {
