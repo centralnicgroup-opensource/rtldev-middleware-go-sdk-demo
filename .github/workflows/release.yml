@@ -27,8 +27,6 @@ jobs:
           go-version: "1.15"
           check-latest: true
         #TODO govendor is deprecated -> go modules
-      - name: Run build
-        run: go build .
       - name: Run vet & lint
         run: go vet .
       - name: Run test
