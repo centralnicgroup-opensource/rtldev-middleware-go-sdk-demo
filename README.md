@@ -12,6 +12,6 @@ Make sure dependencies are correctly installed. Run this app by `go run main.go`
 
 e.g.
 
-`go get -v -u github.com/hexonet/go-sdk/v3@v3.5.4 && go mod tidy`
+`go get -v -u github.com/centralnicgroup-opensource/rtldev-middleware-go-sdk/v3@v3.5.4 && go mod tidy`
 
 HTH

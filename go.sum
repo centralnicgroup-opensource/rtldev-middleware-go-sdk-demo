@@ -1,2 +1,2 @@
-github.com/hexonet/go-sdk/v3 v3.5.4 h1:ovDTtjjdej2/54eebala1qhXQlXn2QUtmdyL6SrwoyU=
-github.com/hexonet/go-sdk/v3 v3.5.4/go.mod h1:X/TQ5RQ7MMNsTajP4/lr3/eBkOoz8qUiha2lydNBGZE=
+github.com/centralnicgroup-opensource/rtldev-middleware-go-sdk/v3 v3.5.5-0.20220929105257-345318c3b882 h1:Wh/70WXvtJ1WbA7R8kVIJpS/59wVVTJHsUF/jcG1bR0=
+github.com/centralnicgroup-opensource/rtldev-middleware-go-sdk/v3 v3.5.5-0.20220929105257-345318c3b882/go.mod h1:1usm1EQvugrIio3ODIAMrDG9NzA86AHIqhZCxJgNdxY=
