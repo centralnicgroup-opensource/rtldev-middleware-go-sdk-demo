@@ -1,2 +1,2 @@
-github.com/centralnicgroup-opensource/rtldev-middleware-go-sdk/v3 v3.5.5-0.20220929105257-345318c3b882 h1:Wh/70WXvtJ1WbA7R8kVIJpS/59wVVTJHsUF/jcG1bR0=
-github.com/centralnicgroup-opensource/rtldev-middleware-go-sdk/v3 v3.5.5-0.20220929105257-345318c3b882/go.mod h1:1usm1EQvugrIio3ODIAMrDG9NzA86AHIqhZCxJgNdxY=
+github.com/centralnicgroup-opensource/rtldev-middleware-go-sdk/v3 v3.5.5 h1:awE2kiwdJa409MC5i3OH9fJHCr2yE75yHuWWoA5zx8Q=
+github.com/centralnicgroup-opensource/rtldev-middleware-go-sdk/v3 v3.5.5/go.mod h1:1usm1EQvugrIio3ODIAMrDG9NzA86AHIqhZCxJgNdxY=
